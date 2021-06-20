@@ -1,0 +1,29 @@
+@import '../../App.scss';
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e2e8f0;
+  height: 20rem;
+  flex-direction: column;
+  width: 25rem;
+  background-color: #edf2f7;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  box-sizing: border-box;
+  &.card-container__selected {
+    border: 1px solid #d3bfea;
+    box-shadow:  0px 2px 5px rgba(19, 100, 41, 0.08);
+  }
+}
+
+.card-container:first-child {
+  margin-left: 0;
+}
+
+.card-container:hover {
+  box-shadow:  0px 2px 5px rgba(19, 100, 41, 0.08);
+}

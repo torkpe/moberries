@@ -1,0 +1,42 @@
+@import '../../App.scss';
+
+.form-input {
+  border: $border;
+  margin-top: 1rem;
+  outline: 0;
+  height: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 4px;
+  box-sizing: border-box;
+  &.form-input__error {
+    border: 1px solid red;
+  }
+}
+
+.form-input:focus {
+  box-shadow:  0px 2px 5px rgba(19, 100, 41, 0.08);
+}
+
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+  width: 40rem;
+  &.form-group__small {
+    width: 19rem;
+    margin-right: 1rem;
+  }
+}
+
+
+.form-label {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.error-message {
+  color: red;
+  margin-top: 1rem;
+}

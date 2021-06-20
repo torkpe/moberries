@@ -1,0 +1,96 @@
+html {
+  font-size: 62.5%; /* font-size 1em = 10px on default browser settings */
+}
+
+
+$darkGrey: #20232a;
+$border: 1px solid #EFEFEF;
+
+h1 {
+  font-weight: 500;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+hr {
+  width: 100%;
+  border: $border;
+}
+
+
+.header {
+  width: 100%;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 52%;
+  padding-top: 3rem;
+}
+
+.content {
+  display: flex;
+  margin-top: 2rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.action-button {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 3rem;
+  justify-content: space-evenly;
+}
+
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  cursor: pointer;
+  width: 30rem;
+  font-weight: 600;
+  color: white;
+  background-color: $darkGrey;
+  text-transform: uppercase;
+  height: 4rem;
+  &.btn__back {
+    color: $darkGrey;
+    background-color: white;
+    border: $border;
+  }
+}
+
+.payment-value {
+  margin-left: 1rem;
+}
+
+.payment-key {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.payment-row {
+  display: flex;
+  align-items: center;
+}

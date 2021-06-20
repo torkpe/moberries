@@ -1,0 +1,17 @@
+@import '../../App.scss';
+
+
+.card-container__summary {
+ margin-bottom: 3rem;
+}
+
+.content__summary {
+  display: flex;
+  margin-top: 0;
+  justify-content: center;
+}
+
+.agreement-container {
+  display: flex;
+  flex-direction: column;
+}
